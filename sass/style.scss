@@ -1,3 +1,31 @@
 body {
   margin: 0;
 }
+
+.nav {
+  background-image: url(https://placehold.co/1200x600);
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+

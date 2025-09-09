@@ -2,14 +2,16 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 100px 0;
+}
+
 .nav {
   background-image: url(https://placehold.co/1200x600);
+  height: 100vh;
   background-repeat: no-repeat;
-  min-height: 600px;
-  background-size: 100% auto;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
 }
 
 ul {
@@ -28,4 +30,3 @@ ul li {
   align-items: center;
   text-align: center;
 }
-

@@ -1,5 +1,8 @@
+@charset "UTF-8";
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 80%;
+  background-color: black;
 }
 
 section {
@@ -8,10 +11,11 @@ section {
 
 .nav {
   background-image: url(https://placehold.co/1200x600);
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .nav-title {
@@ -30,11 +34,49 @@ ul li {
 }
 
 .content {
-  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.text-center {
   text-align: center;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFNBQUE7QUNDRjs7QURFQTtFQUNFLGdCQUFBO0FDQ0Y7O0FERUE7RUFDRSxvREFBQTtFQUNBLGFBQUE7RUFDQSw0QkFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUNDRjs7QURFQTtFQUNFLHFCQUFBO0VBQ0EsdUJBQUE7RUFDQSxpQkFBQTtBQ0NGOztBREVBO0VBQ0UscUJBQUE7RUFDQSxtQkFBQTtBQ0NGOztBREVBO0VBQ0Usa0JBQUE7QUNDRjs7QURFQTtFQUNFLE9BQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0FDQ0YiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+.services,
+footer {
+  background-color: white;
+}
+
+.portfolio {
+  background-color: rgba(245, 241, 241, 0.89);
+}
+
+.card-text {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  width: 280px;
+}
+
+.card img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer i {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex; /* włączamy flexa */
+  justify-content: center; /* wyśrodkowanie poziome */
+  align-items: center; /* wyśrodkowanie pionowe */
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyIsIi4uL3Nhc3Mvc3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxnQkFBZ0I7QUNBaEI7RUFDRSxjQUFBO0VBQ0EsVUFBQTtFQUNBLHVCQUFBO0FERUY7O0FDQ0E7RUFDRSxnQkFBQTtBREVGOztBQ0NBO0VBQ0Usb0RBQUE7RUFDQSxZQUFBO0VBQ0EsNEJBQUE7RUFDQSxzQkFBQTtFQUNBLDJCQUFBO0VBQ0Esa0JBQUE7QURFRjs7QUNDQTtFQUNFLHFCQUFBO0VBQ0EsdUJBQUE7RUFDQSxpQkFBQTtBREVGOztBQ0NBO0VBQ0UscUJBQUE7RUFDQSxtQkFBQTtBREVGOztBQ0NBO0VBQ0Usa0JBQUE7QURFRjs7QUNDQTtFQUNFLGFBQUE7RUFDQSxrQkFBQTtFQUNBLDZCQUFBO0VBQ0Esa0NBQUE7QURFRjs7QUNDQTtFQUNFLGtCQUFBO0FERUY7O0FDQ0E7O0VBRUUsdUJBQUE7QURFRjs7QUNDQTtFQUNFLDJDQUFBO0FERUY7O0FDQ0E7RUFDRSx1QkFBQTtFQUNBLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLFlBQUE7QURFRjs7QUNDQTtFQUNFLDRCQUFBO0VBQ0Esc0JBQUE7RUFDQSwyQkFBQTtBREVGOztBQ0NBO0VBQ0UsWUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsdUJBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFFQSxhQUFBLEVBQUEsbUJBQUE7RUFDQSx1QkFBQSxFQUFBLDBCQUFBO0VBQ0EsbUJBQUEsRUFBQSwwQkFBQTtFQUNBLGVBQUE7QURDRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

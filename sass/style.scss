@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 80%;
+  background-color: black;
 }
 
 section {
@@ -8,10 +10,11 @@ section {
 
 .nav {
   background-image: url(https://placehold.co/1200x600);
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .nav-title {
@@ -30,9 +33,48 @@ ul li {
 }
 
 .content {
-  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.text-center {
   text-align: center;
+}
+
+.services,
+footer {
+  background-color: white;
+}
+
+.portfolio {
+  background-color: rgba(245, 241, 241, 0.89);
+}
+
+.card-text {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  width: 280px;
+}
+
+.card img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer i {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+
+  display: flex; /* włączamy flexa */
+  justify-content: center; /* wyśrodkowanie poziome */
+  align-items: center; /* wyśrodkowanie pionowe */
+  font-size: 20px;
 }
